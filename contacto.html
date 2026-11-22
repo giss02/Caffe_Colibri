@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contacto | Café Colibrí</title>
+<meta name="description" content="Contacta a Café Colibrí: teléfono, correo, dirección y formulario.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+<header class="sitio">
+<div class="barra">
+<a class="marca" href="index.html"><img src="images/logo.png" alt="Logo de Café Colibrí">Café Colibrí</a>
+<nav aria-label="Menú principal"><ul><li><a href="index.html">Inicio</a></li><li><a href="nosotros.html">Nosotros</a></li><li><a href="menu.html">Menú</a></li><li><a href="galeria.html">Galería</a></li><li><a href="contacto.html" class="activo">Contacto</a></li></ul></nav>
+</div>
+</header>
+<section class="encabezado-pagina"><h1>Visítanos o escríbenos</h1><p>Estamos para atenderte</p></section>
+<section class="contenedor">
+<div class="dos" style="align-items:start">
+<div>
+<h2>Datos de contacto</h2>
+<p>Escríbenos para hacer una reserva, un pedido para llevar o preguntar por eventos.</p>
+<ul class="datos">
+<li><strong>Teléfono:</strong> 2200-0000</li>
+<li><strong>Correo:</strong> <a href="mailto:hola@cafecolibri.example">hola@cafecolibri.example</a></li>
+<li><strong>Dirección:</strong> Barrio Centro, frente al parque central (ficticia)</li>
+<li><strong>Horario:</strong> Lunes a sábado, 7:00 a. m. a 8:00 p. m.; domingo, 8:00 a. m. a 4:00 p. m.</li>
+</ul>
+<p class="redes"><strong>Síguenos:</strong> <a href="#">Facebook @cafecolibrihn</a> <a href="#">Instagram @cafecolibrihn</a></p>
+</div>
+<div>
+<h2>Envíanos un mensaje</h2>
+<!-- Este formulario abre el programa de correo del visitante. Para recibir mensajes de verdad, cambia el action por el de un servicio de formularios. -->
+<form action="mailto:hola@cafecolibri.example" method="post" enctype="text/plain">
+<label for="nombre">Nombre</label><input id="nombre" name="nombre" type="text" required>
+<label for="correo">Correo</label><input id="correo" name="correo" type="email" required>
+<label for="telefono">Teléfono</label><input id="telefono" name="telefono" type="tel">
+<label for="motivo">Motivo</label>
+<select id="motivo" name="motivo"><option>Reserva</option><option>Pedido para llevar</option><option>Consulta</option></select>
+<label for="mensaje">Mensaje</label><textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+<button class="btn" type="submit">Enviar mensaje</button>
+</form>
+</div>
+</div>
+<!-- Para mostrar un mapa real: en Google Maps elige Compartir > Insertar un mapa, copia el iframe y pégalo aquí en lugar del recuadro. -->
+<div class="mapa"><h3>Mapa de ubicación</h3><p>Aquí va el mapa de Google Maps con la ubicación de la cafetería.</p></div>
+</section>
+<footer class="pie">
+<p>&copy; 2026 Café Colibrí · Todos los derechos reservados</p>
+<p>Sitio creado como ejercicio de clase. La empresa es ficticia.</p>
+</footer>
+</body>
+</html>
